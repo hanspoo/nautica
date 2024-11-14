@@ -113,3 +113,4 @@ function LinkBoteNext({ bote }: { bote: Bote }) {
     </Link>
   );
 }
+export default BarraExploracion;

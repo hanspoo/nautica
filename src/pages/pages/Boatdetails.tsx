@@ -237,3 +237,4 @@ export function BoatDetails({ bote }) {
     </>
   );
 }
+export default BoatDetails;

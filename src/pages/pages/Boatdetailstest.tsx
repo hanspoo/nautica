@@ -7,3 +7,4 @@ export function BoatDetails(bote) {
     </div>
   );
 }
+export default BoatDetails;

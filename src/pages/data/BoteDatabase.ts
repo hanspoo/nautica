@@ -7,3 +7,4 @@ export class BoteDatabase {
     return bote;
   }
 }
+export default BoteDatabase

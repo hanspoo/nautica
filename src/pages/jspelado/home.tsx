@@ -108,3 +108,4 @@ export function home() {
 
   // --------------------PlayVideo--------------------
 }
+export default home;

@@ -8,3 +8,4 @@ export const boatsinfo = [
 ];
 
 export const especificaciones = {};
+export default especificaciones;

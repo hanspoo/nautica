@@ -16,3 +16,4 @@ export function BoteContainer() {
     </div>
   );
 }
+export default BoteContainer;

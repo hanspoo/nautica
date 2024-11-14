@@ -107,3 +107,4 @@ export function boatlist() {
 
   // Reset the values onclick
 }
+export default boatlist;

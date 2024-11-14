@@ -164,9 +164,12 @@ function useDeepCompareEffectForMaps(
   React.useEffect(callback, dependencies.map(useDeepCompareMemoize));
 }
 
+if (typeof window !== "undefined") {
 window.addEventListener("DOMContentLoaded", () => {
   const root = createRoot(document.getElementById("root")!);
   root.render(<App />);
 });
+}
 
 export {};
+export default Mapa;

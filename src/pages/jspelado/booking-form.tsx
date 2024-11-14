@@ -15,3 +15,4 @@ export function bookingform() {
     };
   });
 }
+export default bookingform;
