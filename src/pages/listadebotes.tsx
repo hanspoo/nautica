@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { BoteDatabase } from "./data/BoteDatabase";
+import find from "./data/BoteDatabase";
 import { BoatDetails } from "./pages/Boatdetails";
 import { useScrollRestoration } from "gatsby";
 
@@ -8,7 +8,7 @@ export default function Component(props: any) {
 
   if (!match) return <p>Bote {props.location.search} url inválida</p>;
 
-  const bote = BoteDatabase.find(match[1]);
+  const bote = find(match[1]);
   if (!bote) return <p>Bote {match[1]} no encontrado en base de datos</p>;
 
   return <BoatDetails bote={bote} />;

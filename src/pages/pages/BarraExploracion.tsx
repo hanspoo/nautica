@@ -20,6 +20,9 @@ export function BarraExploracion({
   bote: any;
   next: Bote;
 }) {
+  if (!bote)
+	return <div></div>
+
   return (
     <div style={barra}>
       <LinkBotePrev bote={prev} />

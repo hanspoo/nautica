@@ -1,6 +1,9 @@
 // ---------------- Booking section ---------------------//
 // ---------------- form Validation ---------------------//
 export function bookingform() {
+
+  if (typeof document === "undefined")
+	return;
   // ---------------- FAQ Ques ---------------------//
   let questions = document.querySelectorAll(".question");
 

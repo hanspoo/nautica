@@ -7,6 +7,10 @@ import { BoatsDatabase } from "../../BoatsDatabase";
 import { BarraExploracion } from "./BarraExploracion";
 
 export function BoatDetails({ bote }) {
+
+  if (!bote)
+	return <div></div>
+
   const casco = bote.materialCasco;
   const [prev, next] = BoatsDatabase.findPrevNext(bote);
   //   console.lo g(casco.value);

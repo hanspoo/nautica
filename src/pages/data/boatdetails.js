@@ -7,5 +7,5 @@ export const boatsinfo = [
   { id: "1", img: "/imgs/bote1/img6.jpeg" },
 ];
 
-export const especificaciones = {};
-export default especificaciones;
+
+export default "hello";

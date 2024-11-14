@@ -1,6 +1,9 @@
 export default function main() {
   // ---------------- Home Page ---------------------//
   // ---------------- landing Page change ---------------------//
+  if (typeof document === "undefined")
+	return;
+
   let textBox = document.querySelectorAll(".textbox");
   let activeBox = 0;
   let imgs = ["url(/imgs/Main.jpg)", "url(/imgs/Main1.jpg)"];

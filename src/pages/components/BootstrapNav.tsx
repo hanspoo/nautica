@@ -30,21 +30,21 @@ function NavBarBootstrap() {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className=" bootnav" style={{ width: "100%" }}>
-            <NavHashLink
+            <div
               to="/#linkcontacto"
               className="list-item abootnav aBootstrap"
             >
               INICIO
-            </NavHashLink>
-            <NavHashLink to="/#linkcontacto" className="list-item  aBootstrap">
+            </div>
+            <div to="/#linkcontacto" className="list-item  aBootstrap">
               NUESTRAS LANCHAS
-            </NavHashLink>
-            <NavHashLink to="/#linkcontacto" className="list-item  aBootstrap">
+            </div>
+            <div to="/#linkcontacto" className="list-item  aBootstrap">
               UBICACIÓN
-            </NavHashLink>
-            <NavHashLink to="/#linkcontacto" className="list-item  aBootstrap">
+            </div>
+            <div to="/#linkcontacto" className="list-item  aBootstrap">
               CONTACTO
-            </NavHashLink>
+            </div>
           </Nav>
         </Navbar.Collapse>
       </Container>

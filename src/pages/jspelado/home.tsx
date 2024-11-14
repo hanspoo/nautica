@@ -1,6 +1,9 @@
 export function home() {
   // ---------------- What people say section ---------------------//
 
+  if (typeof document === "undefined")
+	return;
+
   let slider = document.querySelector(".reviews-container .slider"),
     psSlideItem = slider.querySelectorAll(".review"),
     psSlideItemWidth = psSlideItem[0].clientWidth,

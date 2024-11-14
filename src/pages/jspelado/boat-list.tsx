@@ -1,4 +1,6 @@
 export function boatlist() {
+  if (typeof document === "undefined") return;
+
   let filterButtons = document.querySelectorAll(".drop-down"),
     insideList = document.querySelectorAll(".options-list"),
     options = document.querySelectorAll(".options-list li"),
